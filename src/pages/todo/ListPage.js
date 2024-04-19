@@ -1,4 +1,5 @@
 import { useSearchParams } from "react-router-dom";
+import ListComponent from "../../components/todo/ListComponent";
 
 const ListPage = () => {
 
@@ -13,6 +14,8 @@ const ListPage = () => {
             <div className="text-3xl font-extrabold">
                 Todo List Page component {page} --- {size}
             </div>
+
+            <ListComponent />
         </div>
     );
 }
